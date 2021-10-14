@@ -1,18 +1,29 @@
 body {
-    margin: auto;
+    margin: 0;
+    text-align: center;
 }
 
 .profile-photo{
+    /* display: inline-block; */
     height: auto;
     width: 150px;
-    margin-left: 400px;
-    align-items: center;
+    /* float: left;
+    margin-left: auto; */
 }
 
 .top-container {
     display: inline-block;
-    padding-left: 30px;
+    /* padding-left: 30px; */
     text-align: center;
+}
+
+.h21 {
+    color: rgb(64, 64, 226);
+}
+
+.h22 {
+    color: rgb(64, 64, 226);
+    padding-left: 20px;
 }
 
 h3:hover {
@@ -33,6 +44,8 @@ h3:hover {
     width: 600px;
     padding: 100px;
     margin: auto;
+    position: relative;
+    /* flex-wrap: wrap; */
 }
 
 .second-container2 {
@@ -42,8 +55,14 @@ h3:hover {
     padding-left: 20px;
 }
 
+.decription {
+    line-height: 2;
+    text-align: left;
+}
+
 .sefile-photo {
     padding-left: 50px;
+    float: right;
 }
 
 hr {
@@ -58,16 +77,23 @@ hr {
     width: 600;
     padding: 100px;
     /* justify-content: center; */
+    text-align: center;
 }
 
 .stand-photo {
     display: inline-block;
-    margin-left: 250px;
+    margin-left: auto;
+    /* padding-left: 100px; */
+    float: left;
 }
 
 .third-container2 {
     padding-left: 80px;
     font-size: 20px;
+    line-height: 2;
+    margin-right: auto;
+    /* padding-bottom: 20px; */
+    text-align: left;
 }
 
 .bottom-container {
